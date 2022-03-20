@@ -1,0 +1,16 @@
+.country{
+    background-color: lightskyblue;
+    border: 2px solid salmon;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px;
+}
+.countries{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+.title{
+    color: red;
+    font-size: 35px;
+}
